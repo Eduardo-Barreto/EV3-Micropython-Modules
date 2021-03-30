@@ -76,3 +76,6 @@ if __name__ == '__main__':
     # Executa nossas funções de teste
     mudar_cores()
     teste_desligar()
+
+# Fonte:
+# https://pybricks.github.io/ev3-micropython/hubs.html#pybricks.hubs.EV3Brick.light.on

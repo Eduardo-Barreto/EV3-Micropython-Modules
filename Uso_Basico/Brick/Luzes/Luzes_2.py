@@ -45,3 +45,5 @@ if __name__ == '__main__':
     # Executa nossa função de teste
     main()
 
+# Fonte:
+# https://pybricks.github.io/ev3-micropython/hubs.html#pybricks.hubs.EV3Brick.light.on
