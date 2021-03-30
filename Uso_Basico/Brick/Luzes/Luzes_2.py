@@ -18,14 +18,15 @@ para evitar a escrita complexa de coisas como "Color.RED" por exemplo,
 podemos transformar em uma maneira mais simples apresentada a seguir
 '''
 
+
 # Uma classe possui suas variáveis, que possuem seu valor
 class cores:
     # A variável VERDE tem como valor a cor verde
-    VERDE    =  Color.GREEN
+    VERDE = Color.GREEN
     # E assim por diante
-    AMARELO  =  Color.YELLOW
-    VERMELHO =  Color.RED
-    LARANJA  =  Color.ORANGE
+    AMARELO = Color.YELLOW
+    VERMELHO = Color.RED
+    LARANJA = Color.ORANGE
 
 
 # Para ligarmos a luz amarela agora, podemos utilizar:
