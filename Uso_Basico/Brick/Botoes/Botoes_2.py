@@ -2,7 +2,6 @@
 # ↑ Interpretador do python definido para o EV3
 
 # Importações dos módulos utilizados
-
 # Módulo principal do brick importado da biblioteca principal
 from pybricks import ev3brick as brick
 # Módulo dos botões do brick
@@ -48,6 +47,7 @@ def esperar_pressionado_solto(botao):
         wait(10)
 
     # Ou seja, verifica de 10 em 10 ms nossas condições
+
 
 # Vamos testar!
 def main():
