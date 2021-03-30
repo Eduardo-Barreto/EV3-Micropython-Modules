@@ -26,10 +26,10 @@ As cores disponíveis para essa parte são:
 
 # Lista de cores disponíveis / compativeis com o brick
 cores_disponiveis = [
-    Color.GREEN, # Verde
-    Color.YELLOW, # Amarelo
-    Color.RED, # Vermelho
-    Color.ORANGE # Laranja
+    Color.GREEN,    # Verde
+    Color.YELLOW,   # Amarelo
+    Color.RED,      # Vermelho
+    Color.ORANGE    # Laranja
 ]
 
 
