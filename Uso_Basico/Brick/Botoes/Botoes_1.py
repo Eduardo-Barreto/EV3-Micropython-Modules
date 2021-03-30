@@ -2,7 +2,6 @@
 # ↑ Interpretador do python definido para o EV3
 
 # Importações dos módulos utilizados
-
 # Módulo principal do brick importado da biblioteca principal
 from pybricks import ev3brick as brick
 # Módulo dos botões do brick
@@ -39,14 +38,22 @@ def pressionado(botao):
 
 
 # Uso da função
-# Loop infinito
-while True:
-    # Se o botão de cima estiver pressionado
-    if pressionado(Button.UP):
-        # Escreve no console que ele está pressionado!
-        print('Botão pra cima pressionado!')
-# Ou seja, toda vez que o botão de cima for pressionado
-# Será registrado no console
+def main():
+    # Loop infinito
+    while True:
+        # Se o botão de cima estiver pressionado
+        if pressionado(Button.UP):
+            # Escreve no console que ele está pressionado!
+            print('Botão pra cima pressionado!')
+    # Ou seja, toda vez que o botão de cima for pressionado
+    # Será registrado no console
+
+
+# Se o programa está executando como principal
+if __name__ == '__main__':
+    # Executa nossa função de teste
+    main()
+
 
 # Fonte:
 # https://pybricks.github.io/ev3-micropython/hubs.html#pybricks.hubs.EV3Brick.buttons.pressed
