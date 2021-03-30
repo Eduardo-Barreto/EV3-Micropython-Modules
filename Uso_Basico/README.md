@@ -3,7 +3,7 @@ Essa pasta mostra exemplos de usos básicos das partes principais usadas no proj
 
 - [ ] **[Brick (Hub)](/Uso_Basico/Brick/)**
     - [x] [Botões](/Uso_Basico/Brick/Botoes)
-    - [ ] Luzes
+    - [x] [Luzes](/Uso_Basico/Brick/Luzes)
     - [ ] Sons
     - [ ] Tela
     - [ ] Bateria
