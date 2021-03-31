@@ -13,14 +13,20 @@ ev3 = EV3Brick()
 ev3.speaker.beep(frequency=500, duration=100)
 # Você pode padronizar alguns sons para avisar coisas durante a programação
 
+# Com a função set_volume você pode configurar o volume do speaker
+ev3.speaker.set_volume(
+    volume=100,  # 100% de volume
+    which='_all_'  # Quais volumes serão alterados
+    # 'Beep' para beeps, 'PCM' para notas e fala. O '_all_' afeta todos
+)
+
+
 # Criar uma função para um beep padronizado para usar quando o robõ ver verde
-
-
 def aviso_verde():
     ev3.speaker.beep(frequency=600, duration=300)
-
-# Assim em vez de digitar tudo isso toda vez que quiser um aviso de verde
-# Você pode escrever somente "aviso_verde()", e ele tocará o seu beep padrão
+    # Assim em vez de digitar tudo isso toda vez que quiser um aviso de verde
+    # Você pode escrever somente "aviso_verde()"
+    # e ele tocará o seu beep padrão
 
 
 # Uma forma de facilitar isso é usando notas, com o play_notes
