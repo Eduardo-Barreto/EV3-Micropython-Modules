@@ -40,6 +40,7 @@ def main():
     # Mantém desligada por 1 segundo
     wait(1000)
 
+
 # Se o programa está executando como principal
 if __name__ == '__main__':
     # Executa nossa função de teste
